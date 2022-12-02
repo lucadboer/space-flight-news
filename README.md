@@ -39,4 +39,8 @@ $ yarn run dev
 
 > This is a challenge by <a rel="nofollow noreferrer noopener" href="https://coodesh.com/" target="_blank">Coodesh</a>
 
+## Deploy da aplicação
+
+Link -> https://space-flight-news-hazel.vercel.app/
+
 
