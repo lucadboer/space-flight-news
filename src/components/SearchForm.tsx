@@ -27,10 +27,10 @@ export function SearchForm({ getSearchedNews }: SearchFormProps) {
   }
 
   return (
-    <form onSubmit={handleSubmit(handleSearchNews)}>
+    <form className="flex items-center gap-3" onSubmit={handleSubmit(handleSearchNews)}>
       <input className="w-52 bg-transparent text-orange outline-none shadow" placeholder="Pesquise por notícias" required {...register('query')} />
       <button>
-        <MagnifyingGlass className="text-orange" size={20} />
+        <MagnifyingGlass className="text-orange" size={22} />
       </button>
     </form>
   )

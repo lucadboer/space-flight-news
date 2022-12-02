@@ -76,7 +76,7 @@ export default function Home() {
     <div className="pt-5 pb-20">
       <header className="w-full flex flex-col">
         <div className="w-full absolute flex justify-end gap-4">
-          <div className="flex items-center max-h-8 gap-1 border rounded p-[1.45rem] border-orange">
+          <div className="flex items-center max-h-8 border rounded p-[1.45rem] border-orange">
             <SearchForm getSearchedNews={getPosts} />
           </div>
           <div className="bg-transparent border h-full border-orange p-[0.68rem] rounded mr-8 text-zinc-400">
