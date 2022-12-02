@@ -1,4 +1,4 @@
-## Space Flight News
+# Space Flight News
 
 O projeto foi desenvolvido por uma proposta da Coodesh onde o objetivo foi consumir uma API da Space Flight News, buscar ao todo 10 notícias, mas podendo carregar mais caso o usuário necessite, ordernar as notícias pela data e também buscar as notícias de acordo com o título.
 
@@ -17,25 +17,34 @@ O projeto foi desenvolvido por uma proposta da Coodesh onde o objetivo foi consu
 
 ## Instruções
 
+### Abra o terminal e copie este repositório em alguma pasta com o comando
 ```
-# Abra o terminal e copie este repositório em alguma pasta com o comando
-$ git clone https://github.com/AbnerWillclefy/SpaceFlightNews-Coodesh.git
+$ git clone https://github.com/lucadboer/space-flight-news.git
+```
 
-# Acesse a pasta do projeto no prompt de comando ou pelo mouse 
+### Acesse a pasta do projeto no prompt de comando ou pelo mouse 
+
+```
 $ cd space-flight-news
+```
 
-# Instale as dependências da aplicação
+### Instale as dependências da aplicação
+
+```
 $ npm install
 ou
 $ yarn install
+```
 
-# Execute a aplicação
+### Execute a aplicação
+
+```
 $ npm run dev
 ou
 $ yarn run dev
-
-# Depois desses processos acesse http://localhost:3000 no seu navegador.
 ```
+
+### Depois desses processos acesse http://localhost:3000 no seu navegador.
 
 > This is a challenge by <a rel="nofollow noreferrer noopener" href="https://coodesh.com/" target="_blank">Coodesh</a>
 
