@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Space Flight News
 
-## Getting Started
+O projeto foi desenvolvido por uma proposta da Coodesh onde o objetivo foi consumir uma API da Space Flight News, buscar ao todo 10 notícias, mas podendo carregar mais caso o usuário necessite, ordernar as notícias pela data e também buscar as notícias de acordo com o título.
 
-First, run the development server:
+## Tecnologias aplicadas
+- HTML
+- Javascript
+- Typescript
+- ReactJS
+- React Hook Form
+- Next.js
+- Zod
+- Radix UI
+- TailwindCSS
+- Axios
+- Phosphor-Icons
 
-```bash
-npm run dev
-# or
-yarn dev
+## Instruções
+
+```
+# Abra o terminal e copie este repositório em alguma pasta com o comando
+$ git clone https://github.com/AbnerWillclefy/SpaceFlightNews-Coodesh.git
+
+# Acesse a pasta do projeto no prompt de comando ou pelo mouse 
+$ cd space-flight-news
+
+# Instale as dependências da aplicação
+$ npm install
+ou
+$ yarn install
+
+# Execute a aplicação
+$ npm run dev
+ou
+$ yarn run dev
+
+# Depois desses processos acesse http://localhost:3000 no seu navegador.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> This is a challenge by <a rel="nofollow noreferrer noopener" href="https://coodesh.com/" target="_blank">Coodesh</a>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
