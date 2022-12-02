@@ -14,6 +14,7 @@ O projeto foi desenvolvido por uma proposta da Coodesh onde o objetivo foi consu
 - TailwindCSS
 - Axios
 - Phosphor-Icons
+- Vercel
 
 ## Instruções
 
