@@ -13,6 +13,9 @@ module.exports = {
         purple: '#302E53',
         orange: '#D07017',
       },
+      backgroundImage: {
+        galaxy: "url('/bg-header.png')",
+      }
     },
   },
   plugins: [],
