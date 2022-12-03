@@ -96,7 +96,9 @@ export default function Home() {
                     <ul className="border-t border-t-orange">
                       <li className="mt-2 hover:text-orange">
                       <button onClick={() => {
-                        setSort('desc')
+                        if(sort !== 'desc') {
+                          setSort('desc')
+                        }
                         getPosts()
 
                     }}>Mais novas</button>
