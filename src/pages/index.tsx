@@ -37,18 +37,16 @@ export default function Home() {
     getPosts()
   }, [])
 
-  const getPosts =
-    async (query: string = '') => {
+  const getPosts = async (query: string = '') => {
       try {
         const { contains } = router.query
-        const queryParams = contains
         
         setIsLoading(true)
         const response = await axios.get(
           api,
           {
             params: {
-              title_contains: query || queryParams,
+              title_contains: contains || query,
               _limit: limit,
               _sort: `publishedAt:${sort}`,
               _start: posts.length
@@ -62,7 +60,6 @@ export default function Home() {
         setIsLoading(false)
       }}
   
-
   async function handleGetMorePosts() {
     try {
       setIsLoading(true)
@@ -99,14 +96,14 @@ export default function Home() {
                     <ul className="border-t border-t-orange">
                       <li className="mt-2 hover:text-orange">
                       <button onClick={() => {
-                        setSort('asc')
+                        setSort('desc')
                         getPosts()
 
                     }}>Mais novas</button>
                       </li>
                       <li className="hover:text-orange">
                       <button onClick={() => {
-                        setSort('desc')
+                        setSort('asc')
                         getPosts()
               
                       }}>Mais antigas</button>
